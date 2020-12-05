@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "red.mohist.yaml",
+    "module": "Yaml",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.4",
+      "buildId": "ioc6gxtwy5g57huut2hw6tfhfy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.26"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Yaml-0.1.jar",
+          "url": "Yaml-0.1.jar",
+          "size": 338472,
+          "sha512": "ca4eec027105168b03e7ac4be787e5c31295d3e208b49e32108106a572e53bcc33d3019b3b6e8eb2d8d8f0befd7853a0f30fc8e76d51c2cff1e36ccb5f2978e7",
+          "sha256": "54499ef5f206bc6aa558ab5850c1de993b3e35f45797c2adc0a2b5ebf6a53628",
+          "sha1": "63d51bf47d6bfa8d1b5a94f8ee0a9a6b665eaf87",
+          "md5": "b06fc09d45420f1bf0bdac04e7b40a37"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.26"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Yaml-0.1.jar",
+          "url": "Yaml-0.1.jar",
+          "size": 338472,
+          "sha512": "ca4eec027105168b03e7ac4be787e5c31295d3e208b49e32108106a572e53bcc33d3019b3b6e8eb2d8d8f0befd7853a0f30fc8e76d51c2cff1e36ccb5f2978e7",
+          "sha256": "54499ef5f206bc6aa558ab5850c1de993b3e35f45797c2adc0a2b5ebf6a53628",
+          "sha1": "63d51bf47d6bfa8d1b5a94f8ee0a9a6b665eaf87",
+          "md5": "b06fc09d45420f1bf0bdac04e7b40a37"
+        }
+      ]
+    }
+  ]
+}
